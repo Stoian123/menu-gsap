@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENU WITH GSAP</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="nav-bar">
+    <div class="container logo">Uniqo</div>
+    <div class="container menuBtn">Menu</div>
+  </div>
+
+  <div class="menu">
+    <div class="background">Menu</div>
+    <div class="exit">
+      <img src="./assets/exit.svg" alt="close menu">
+    </div>
+    <div class="menu-container">
+      <ul class="nav-list">
+        <li class="nav">
+          <a class="nav-link" href="#">Home <span class="numbers">01</span></a>
+        </li>
+        <li class="nav">
+          <a class="nav-link" href="#">Blog <span class="numbers">02</span></a>
+        </li>
+        <li class="nav">
+          <a class="nav-link" href="#">About <span class="numbers">03</span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="menu-container">
+      <div class="information">
+        <h3 class="title">Where am I?</h3>
+        <p class="stuff">123 my adress</p>
+      </div>
+      <div class="information">
+        <h3 class="title">Contact</h3>
+        <p class="stuff">123@mail.com</p>
+      </div>
+      <div class="information">
+        <h3 class="title">Follow me</h3>
+        <p class="stuff">Twitter</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
